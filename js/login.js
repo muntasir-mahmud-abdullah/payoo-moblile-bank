@@ -24,7 +24,7 @@ document
     console.log(phoneNumber, pinCode);
     if (phoneNumber === "01577065084" && pinCode == "inaba999") {
       console.log("You are logged in ");
-      window.location.href = '/home.html';
+      window.location.href = 'home.html';
     } else {
       alert("wrong phone number or password");
     }
